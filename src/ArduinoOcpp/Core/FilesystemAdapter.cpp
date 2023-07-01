@@ -22,8 +22,8 @@
 #if AO_USE_FILEAPI == ARDUINO_LITTLEFS || AO_USE_FILEAPI == ARDUINO_SPIFFS
 
 #if AO_USE_FILEAPI == ARDUINO_LITTLEFS
-#include <LITTLEFS.h>
-#define USE_FS LITTLEFS
+#include <LittleFS.h>
+#define USE_FS LittleFS
 #elif AO_USE_FILEAPI == ARDUINO_SPIFFS
 #include <FS.h>
 #define USE_FS SPIFFS

@@ -28,12 +28,6 @@
             "owner": "links2004",
             "name": "WebSockets",
             "version": "2.3.6"
-        },
-        {
-            "owner": "lorol",
-            "name": "LittleFS_esp32",
-            "version": "1.0.5",
-            "platforms": ["espressif32"]
         }
       ],
     "frameworks": "arduino",

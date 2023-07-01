@@ -22,8 +22,8 @@
 
 #ifndef AO_DEACTIVATE_FLASH
 #if defined(ESP32)
-#include <LITTLEFS.h>
-#define USE_FS LITTLEFS
+#include <LittleFS.h>
+#define USE_FS LittleFS
 #else
 #include <FS.h>
 #define USE_FS SPIFFS
